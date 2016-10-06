@@ -84,37 +84,5 @@ void spiral_print(vector<vector<int>> matrix)
 
         val++;
     }
-
-
-
-    /*
-    int number_of_rows = matrix.size();
-    int number_of_cols = matrix[0].size();               //assume all rows of the matrix have the same size
-
-
-    for (int i = 0; i < floor((number_of_rows + 1) / 2); i++)
-    {
-        for (int j = i; j < number_of_cols - i; j++)
-            cout << matrix[i][j] << " ";
-
-        for (int j = i + 1; j < number_of_rows - i; j++)
-            cout << matrix[j][number_of_cols - i - 1] << " ";
-
-        for (int j = number_of_cols - i - 2; j >= i; j--)
-            cout << matrix[number_of_rows - i - 1][j] << " ";
-
-        for (int j = number_of_rows - i - 2; j > i; j--)
-            cout << matrix[j][i] << " ";
-            */
+    
 }
-/*
-int main()
-{
-    vector<vector<int>> A = {{1,2,3,7,7}, {1,5,6,8,9}, {6,1,5,2,2}, {8,6,3,4,8}, {6,7,1,2,7}, {1,9,3,8,0}, {1,6,3,2,6}};
-   // vector<vector<int>> A = {{1,2,3,4,5,1,5,3}, {4,5,6,7,8,6,3,7}, {4,2,5,1,6,9,5,2}};
-    display(A);
-    spiral_print(A);
-
-    return 0;
-}
-*/
