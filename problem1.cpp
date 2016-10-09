@@ -59,17 +59,3 @@ int dijkstra(vector<vector<int>> matrix, int source, int dest)
     else
         return -1;
 }
-
-int main()
-{
-    vector<vector<int>> matrix =
-
-    {{0,1,0,0},
-    {1,0,0,0},
-    {0,0,0,1},
-    {0,0,1,0}};
-
-    cout << dijkstra(matrix,0,3);
-
-    return 0;
-}
